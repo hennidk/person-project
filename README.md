@@ -42,7 +42,7 @@ Sample response:
 ```
 ---
 
-POST: http://localhost:8080/person
+POST: http://localhost:8080/person  
 Creates a new person, and returns the saved person.   
 Sample request:
 
@@ -67,7 +67,8 @@ Sample response:
   "partnerId": null
 }
 ```
-PUT: http://localhost:8080/person/{id}
+---
+PUT: http://localhost:8080/person/{id}  
 Updates a new person or saves it if it doesn't exist, and returns the saved person.   
 Sample request:
 
@@ -92,10 +93,11 @@ Sample response:
   "partnerId": null
 }
 ```
----
+--- 
 DELETE: http://localhost:8080/person/{id}  
 Deletes a person with given ID.  
-Returns empty OK response
+Returns empty OK response.  
+
 ---
 GET: http://localhost:8080/person/csv?childrenCount=3&maxChildAge=18  
 Endpoint will return a list of all persons who:  
