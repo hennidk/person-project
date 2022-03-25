@@ -1,6 +1,18 @@
-### Person API
+## Person API
+### Prerequisites
+The following should be installed:
+- Java Version 17
+- Gradle
 
-#### Endpoints
+_This project uses an in-memory database, so no datasource configuration will be required._
+
+### Building and Running
+Open terminal in and navigate to the root of this project.  
+Run `gradlew` to initialize.  
+Run `gradlew bootRun` to run Spring Boot Application.
+
+---
+### Endpoints
 
 GET: http://localhost:8080/person  
 Returns all persons  
