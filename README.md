@@ -16,8 +16,8 @@ Sample response:
 	  "id": 2,
 	  "name": "Jane Smith",
 	  "birthDate": "1975-07-07"
-  },
-...
+	}
+  }
 ]
 ```
 ---
@@ -112,8 +112,8 @@ Sample Response:
 	  "id": 2,
 	  "name": "Jane Smith",
 	  "birthDate": "1975-07-07"
-  },
-...
+	}
+  }
 ]
 ```
 ---
